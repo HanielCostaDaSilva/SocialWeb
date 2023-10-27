@@ -11,6 +11,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 
+import { LayoutModule } from 'src/layout/layout.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -24,7 +26,8 @@ import {MatCardModule} from '@angular/material/card';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
